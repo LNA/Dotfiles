@@ -1,0 +1,3 @@
+  " Classpath
+nnoremap <Leader>ns :NewSrcEntry<CR>
+nnoremap <Leader>nj :NewJarEntry<CR>

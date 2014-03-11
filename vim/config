@@ -1,0 +1,5 @@
+let mapleader = ","
+
+source ~/.vim/bundles
+source ~/.vim/configs/configs
+source ~/.vim/keymaps/keymaps

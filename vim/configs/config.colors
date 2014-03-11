@@ -1,0 +1,9 @@
+" colorscheme
+set background=light
+colorscheme solarized
+
+" use terminal background color
+set t_Co=256
+highlight Normal ctermbg=NONE
+highlight nonText ctermbg=NONE
+highlight LineNr ctermbg=NONE

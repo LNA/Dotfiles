@@ -1,0 +1,2 @@
+# git
+alias gci="git pull --rebase && rake && git push"

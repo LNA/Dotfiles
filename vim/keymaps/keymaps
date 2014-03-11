@@ -1,0 +1,14 @@
+source ~/.vim/keymaps/keymap.movement
+source ~/.vim/keymaps/keymap.dotfiles
+
+" Language Specific Keymaps: Clojure
+au BufEnter *.clj source ~/.vim/keymaps/keymap.clojure
+
+" Language Specific Keymaps: Java
+au BufEnter *.java source ~/.vim/keymaps/keymap.java
+
+" Language Specific Keymaps: Ruby
+au BufEnter *.rb source ~/.vim/keymaps/keymap.ruby
+
+" Language Specific Keymaps: .classpath
+au BufEnter .classpath source ~/.vim/keymaps/keymap.classpath

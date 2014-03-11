@@ -1,0 +1,63 @@
+" General Content Settings
+set backspace=2
+set nocompatible
+set nobackup
+set nowritebackup
+set noswapfile
+set history=50
+set ruler
+set showcmd
+set incsearch
+set laststatus=2
+set autowrite
+syntax on
+filetype plugin indent on
+
+augroup vimrcEx
+  autocmd!
+  " wrap Textfiles at 78 characters
+  autocmd FileType text setlocal textwidth=78
+
+  " open file at last position
+  autocmd BufReadPost *
+    \ if &ft != 'gitcommit' && line("'\"") > 0 && line("'\"") <= line("$") |
+    \   exe "normal g`\"" |
+    \ endif
+
+  " Set syntax highlighting for specific file types
+  autocmd BufRead,BufNewFile *.md set filetype=markdown
+
+  " wrap Markdown at 80 characters
+  autocmd BufRead,BufNewFile *.md setlocal textwidth=80
+
+augroup END
+
+" configure syntastic syntax checking to check on open as well as save
+let g:syntastic_check_on_open=1
+
+" Softtabs, 2 spaces
+set tabstop=2
+set shiftwidth=2
+set expandtab
+
+" Display extra whitespace
+set list listchars=tab:»·,trail:·
+
+" Numbers
+set number
+set numberwidth=5
+
+" turn on relative number
+set relativenumber
+
+" NERDTree settings
+let NERDTreeShowHidden = 1 " nerdtree shows hidden files
+
+" buffered line scrolling
+set scrolloff=8
+set sidescrolloff=15
+set sidescroll=1
+
+" Open new split panes to right and bottom, which feels more natural
+set splitbelow
+set splitright

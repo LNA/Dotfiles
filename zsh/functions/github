@@ -1,0 +1,8 @@
+#!/bin/bash
+
+github()
+{
+  local location=$(grep -o -m 1 'http.*' .git/config)
+  open $location
+}
+

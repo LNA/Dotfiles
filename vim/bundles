@@ -1,0 +1,53 @@
+set nocompatible
+
+filetype off
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" Let Vundle manage Vundle
+Bundle 'gmarik/vundle'
+
+" Define bundles via Github repos
+Bundle 'danro/rename.vim'
+Bundle 'kchmck/vim-coffee-script'
+Bundle 'kien/ctrlp.vim'
+Bundle 'scrooloose/syntastic'
+Bundle 'thoughtbot/vim-rspec'
+Bundle 'tpope/vim-bundler'
+Bundle 'tpope/vim-cucumber'
+Bundle 'tpope/vim-endwise'
+Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-rails'
+Bundle 'tsaleh/vim-matchit'
+Bundle 'vim-scripts/ctags.vim'
+Bundle 'vim-scripts/tComment'
+Bundle 'tpope/vim-surround'
+
+" Powerline
+Bundle 'Lokaltog/vim-powerline'
+Bundle 'stephenmckinney/vim-solarized-powerline'
+
+" Colorscheme
+Bundle 'jpo/vim-railscasts-theme'
+Bundle 'akmassey/vim-codeschool'
+Bundle 'nanotech/jellybeans.vim'
+Bundle 'vim-scripts/twilight'
+Bundle 'altercation/vim-colors-solarized'
+Bundle 'croaky/vim-colors-github'
+
+" NERDTree
+Bundle 'scrooloose/nerdtree'
+
+" Auto Paring
+Bundle 'jiangmiao/auto-pairs'
+
+" Relative Number Toggle
+Bundle 'jeffkreeftmeijer/vim-numbertoggle'
+
+" Useful Clojure Plugins
+Bundle 'tpope/vim-fireplace'
+Bundle 'tpope/vim-classpath'
+Bundle 'guns/vim-clojure-static'
+Bundle 'kien/rainbow_parentheses.vim'
+
+filetype on

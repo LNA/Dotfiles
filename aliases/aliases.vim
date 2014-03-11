@@ -1,0 +1,2 @@
+# Vim
+alias v="vi ."

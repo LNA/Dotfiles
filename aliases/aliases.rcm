@@ -1,0 +1,1 @@
+alias cup="rcup -d dotfiles -x README.md workbench.xmi"

@@ -1,0 +1,10 @@
+[include]
+  path = .gitconfigs/alias
+  path = .gitconfigs/color
+  path = .gitconfigs/commit
+  path = .gitconfigs/core
+  path = .gitconfigs/credential
+  path = .gitconfigs/merge
+  path = .gitconfigs/pretty
+  path = .gitconfigs/push
+  path = .gitconfigs/user

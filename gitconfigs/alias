@@ -1,0 +1,10 @@
+[alias]
+  aa = add --all
+  ap = add --patch
+  ca = commit --amend
+  ci = commit -v
+  co = checkout
+  pr = !hub pull-request
+  st = status
+  up = !git fetch origin && git rebase origin/master
+  l = log --pretty=colored
