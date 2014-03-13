@@ -15,3 +15,5 @@ function! InsertTabWrapper()
     endif
 endfunction
 inoremap <Tab> <c-r>=InsertTabWrapper()<cr>
+
+set completeopt-=preview
