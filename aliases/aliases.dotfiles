@@ -1,0 +1,2 @@
+alias d="cd ~/dotfiles"
+alias D="vi ~/dotfiles"

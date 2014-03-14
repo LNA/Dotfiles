@@ -6,3 +6,4 @@ source ~/.aliases/aliases.vim
 source ~/.aliases/aliases.eclim
 source ~/.aliases/aliases.rcm
 source ~/.aliases/aliases.java
+source ~/.aliases/aliases.dotfiles
