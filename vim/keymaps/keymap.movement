@@ -1,14 +1,20 @@
 " Quicker window movement
 nnoremap <Leader>j <C-w>j
 nnoremap <Leader>k <C-w>k
-nnoremap <Leader>h <C-w>h
-nnoremap <Leader>l <C-w>l
+
+" Resizing Windows Experiment
+nnoremap <Leader><c-h> <C-w>h :vertical resize 80<CR>
+nnoremap <Leader><c-l> <C-w>l :vertical resize 80<CR>
 
 " Get off my lawn
 nnoremap <Left> :echoe "Use h"<CR>
 nnoremap <Right> :echoe "Use l"<CR>
 nnoremap <Up> :echoe "Use k"<CR>
 nnoremap <Down> :echoe "Use j"<CR>
+
+" Splits
+nnoremap <Leader>v :vsplit 
+nnoremap <C-s> :split 
 
 " Tabs
 nnoremap <C-t> :tabedit 
