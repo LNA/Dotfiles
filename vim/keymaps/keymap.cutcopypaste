@@ -1,0 +1,2 @@
+" Select All
+noremap <Leader>sa ggVG

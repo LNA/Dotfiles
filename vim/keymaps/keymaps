@@ -1,5 +1,6 @@
 source ~/.vim/keymaps/keymap.movement
 source ~/.vim/keymaps/keymap.dotfiles
+source ~/.vim/keymaps/keymap.cutcopypaste
 
 " Language Specific Keymaps: Clojure
 au BufEnter *.clj source ~/.vim/keymaps/keymap.clojure
