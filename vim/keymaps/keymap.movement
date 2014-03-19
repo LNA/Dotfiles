@@ -8,18 +8,20 @@ nnoremap <Leader>k <C-w>k
 nnoremap <Leader><c-h> <C-w>h :vertical resize 80<CR>
 nnoremap <Leader><c-l> <C-w>l :vertical resize 80<CR>
 
-" Splits & Tabs
-nnoremap <Leader>v :vsplit 
-nnoremap <Leader>h :split 
-nnoremap <C-t> :tabedit 
-
-nnoremap <Leader>sa ggvG
-
 " Quicker tab jumping
 nnoremap <C-j> :tabprevious<CR>
 nnoremap <C-k> :tabnext<CR>
 inoremap <C-j> <Esc>:tabprevious<CR>
 inoremap <C-k> <Esc>:tabnext<CR>
+
+" Splits & Tabs
+nnoremap <Leader>v :vsplit 
+nnoremap <Leader>h :split 
+nnoremap <C-t> :tabedit 
+
+" Get File
+  " splits the specs (Java thinggy only for now)
+nnoremap <Leader>gs ggw:vertical wincmd f<CR>
 
 " Get off my lawn
 nnoremap <Left> :echoe "Use h"<CR>
@@ -27,6 +29,5 @@ nnoremap <Right> :echoe "Use l"<CR>
 nnoremap <Up> :echoe "Use k"<CR>
 nnoremap <Down> :echoe "Use j"<CR>
 
-" add line without going into insert mode
-nnoremap <Leader>o o<Esc>
-nnoremap <Leader>O O<Esc>
+" Quit Close
+nnoremap <Leader>q :q<CR>

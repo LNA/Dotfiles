@@ -1,2 +1,9 @@
 " Select All
 noremap <Leader>sa ggVG
+
+"copy all
+nnoremap <leader>ca ggvGy
+
+" add line without going into insert mode
+nnoremap <Leader>o o<Esc>
+nnoremap <Leader>O O<Esc>

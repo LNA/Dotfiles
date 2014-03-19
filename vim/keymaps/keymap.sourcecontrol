@@ -1,0 +1,2 @@
+" source control
+noremap <Leader>dif :w !diff %<CR>
