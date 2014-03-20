@@ -29,5 +29,12 @@ nnoremap <Right> :echoe "Use l"<CR>
 nnoremap <Up> :echoe "Use k"<CR>
 nnoremap <Down> :echoe "Use j"<CR>
 
-" Quit Close
+" Quit Close Escape
+" close
 nnoremap <Leader>q :q<CR>
+" save close
+nnoremap <leader>wq :wq<CR>
+" leave and toggle nu!
+inoremap <C-c> <Esc>
+
+
