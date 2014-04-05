@@ -1,0 +1,15 @@
+#!/bin/bash
+
+replace() {
+  local find_this=$1
+  shift
+
+  local replace_with=$1
+  shift
+
+  if [[ $* == "" ]]; then
+    ag -l -w $find_this */* | xargs sed -i '' "s/[[:<:]]${find_this}[[:>:]]/$replace_with/g"
+  else
+    ag -l -w $find_this $* | xargs sed -i '' "s/[[:<:]]${find_this}[[:>:]]/$replace_with/g"
+  fi
+}

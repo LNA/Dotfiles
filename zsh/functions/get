@@ -1,0 +1,12 @@
+#!/bin/bash
+
+get() {
+  local find_this=$1
+  shift
+
+  if [[ $* == "" ]]; then
+    ag -l -w $find_this */*
+  else
+    ag -l -w $find_this $*
+  fi
+}

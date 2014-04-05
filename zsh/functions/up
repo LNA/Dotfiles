@@ -1,0 +1,13 @@
+#!/bin/bash
+
+up() {
+  if [[ $* == "" ]]; then
+    cd "../"
+  elif [[ $* =~ "^[-0-9]+$"  ]]; then
+    local route=""
+    repeat $* route="${route}../"
+    cd $route
+  else
+    echo "thats not a number"
+  fi
+}
