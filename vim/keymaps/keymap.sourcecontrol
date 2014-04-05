@@ -4,3 +4,4 @@ nnoremap <Leader>ga :Gwrite<CR>
 nnoremap <Leader>gc :Gcommit<CR>
 nnoremap <Leader>gs :Gstatus<CR>
 nnoremap <Leader>G  :Gwrite<CR>:Gcommit<CR>
+nnoremap <Leader>P !git push<CR>
