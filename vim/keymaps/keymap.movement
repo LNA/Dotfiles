@@ -19,9 +19,9 @@ nnoremap <Leader><C-j> :execute 'silent! tabmove ' . (tabpagenr()-2)<CR>
 nnoremap <Leader><C-k> :execute 'silent! tabmove ' . tabpagenr()<CR>
 
 " Splits & Tabs
-nnoremap <Leader>v :vsplit 
-nnoremap <Leader>h :split 
-nnoremap <C-t> :tabedit 
+nnoremap <Leader>v :vsplit<Space>
+nnoremap <Leader>h :split<Space>
+nnoremap <C-t> :tabedit<Space>
 
 " Get File
   " splits the specs (Java thinggy only for now)

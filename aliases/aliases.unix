@@ -1,5 +1,2 @@
 # Unix
-alias 2..='../..'
-alias 3..='../../..'
-alias 4..='../../../..'
 alias mkdir='mkdir -p'

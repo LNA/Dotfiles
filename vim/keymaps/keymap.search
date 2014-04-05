@@ -1,0 +1,5 @@
+" find the word, under your cursor
+nnoremap <C-F> :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>
+
+" find the things
+nnoremap <Leader>f :Get<Space>

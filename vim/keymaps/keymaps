@@ -2,15 +2,16 @@ source ~/.vim/keymaps/keymap.movement
 source ~/.vim/keymaps/keymap.dotfiles
 source ~/.vim/keymaps/keymap.cutcopypaste
 source ~/.vim/keymaps/keymap.sourcecontrol
+source ~/.vim/keymaps/keymap.search
 
-" Language Specific Keymaps: Clojure
+" FileType Specific Keymaps: Clojure
 au BufEnter *.clj source ~/.vim/keymaps/keymap.clj.vim
 
-" Language Specific Keymaps: Java
+" FileType Specific Keymaps: Java
 au BufEnter *.java source ~/.vim/keymaps/keymap.java.vim
 
-" Language Specific Keymaps: Ruby
+" FileType Specific Keymaps: Ruby
 au BufEnter *.rb source ~/.vim/keymaps/keymap.rb.vim
 
-" Language Specific Keymaps: .classpath
+" FileType Specific Keymaps: .classpath
 au BufEnter .classpath source ~/.vim/keymaps/keymap.classpath.vim
