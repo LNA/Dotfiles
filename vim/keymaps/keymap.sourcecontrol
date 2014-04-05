@@ -4,4 +4,4 @@ nnoremap <Leader>ga :Gwrite<CR>
 nnoremap <Leader>gc :Gcommit<CR>
 nnoremap <Leader>gs :Gstatus<CR>
 nnoremap <Leader>G  :Gwrite<CR>:Gcommit<CR>
-nnoremap <Leader>gp :execute 'silent! git push'<CR>
+nnoremap <Leader>gp :!git push<CR>
