@@ -23,10 +23,6 @@ nnoremap <Leader>v :vsplit<Space>
 nnoremap <Leader>h :split<Space>
 nnoremap <C-t> :tabedit<Space>
 
-" Get File
-  " splits the specs (Java thinggy only for now)
-nnoremap <Leader>gs ggw:vertical wincmd f<CR>
-
 " Get off my lawn
 nnoremap <Left> :echoe "Use h"<CR>
 nnoremap <Right> :echoe "Use l"<CR>
