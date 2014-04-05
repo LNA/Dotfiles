@@ -1,0 +1,11 @@
+#!/bin/sh
+
+find_this=$1
+shift
+rest=$1
+
+if [ rest == "" ]; then
+  ag -l $find_this **/*
+else
+  ag -l $find_this $*
+fi

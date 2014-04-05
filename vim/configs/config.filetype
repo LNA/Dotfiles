@@ -1,1 +1,3 @@
 source ~/.vim/configs/filetypes/html.vim
+source ~/.vim/configs/filetypes/md.vim
+source ~/.vim/configs/filetypes/text.vim

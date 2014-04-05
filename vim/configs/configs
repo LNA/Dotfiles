@@ -1,6 +1,9 @@
-source ~/.vim/configs/config.content
-source ~/.vim/configs/config.colors
-source ~/.vim/configs/config.filetype
 source ~/.vim/configs/config.ag
 source ~/.vim/configs/config.autocomplete
+source ~/.vim/configs/config.filetype
+source ~/.vim/configs/config.nerdtree
+source ~/.vim/configs/config.numbers
 source ~/.vim/configs/config.powerline
+source ~/.vim/configs/config.space
+source ~/.vim/configs/config.vim
+source ~/.vim/configs/config.colors

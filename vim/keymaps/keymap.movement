@@ -14,6 +14,10 @@ nnoremap <C-k> :tabnext<CR>
 inoremap <C-j> <Esc>:tabprevious<CR>
 inoremap <C-k> <Esc>:tabnext<CR>
 
+" tab rearanging
+nnoremap <Leader><C-j> :execute 'silent! tabmove ' . (tabpagenr()-2)<CR>
+nnoremap <Leader><C-k> :execute 'silent! tabmove ' . tabpagenr()<CR>
+
 " Splits & Tabs
 nnoremap <Leader>v :vsplit 
 nnoremap <Leader>h :split 
@@ -34,7 +38,6 @@ nnoremap <Down> :echoe "Use j"<CR>
 nnoremap <Leader>q :q<CR>
 " save close
 nnoremap <leader>wq :wq<CR>
-" leave and toggle nu!
+
+" leave and toggle relativenumber
 inoremap <C-c> <Esc>
-
-

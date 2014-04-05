@@ -7,27 +7,47 @@ call vundle#rc()
 " Let Vundle manage Vundle
 Bundle 'gmarik/vundle'
 
-" Define bundles via Github repos
+" Rename Files In Buffer
 Bundle 'danro/rename.vim'
+
+" Coffeescript Compatability
 Bundle 'kchmck/vim-coffee-script'
+
+" Faster Searches
 Bundle 'kien/ctrlp.vim'
+
+" Syntax highlighting in open buffers
 Bundle 'scrooloose/syntastic'
+
+" Rspec Runner for VIM
 Bundle 'thoughtbot/vim-rspec'
-Bundle 'tpope/vim-bundler'
-Bundle 'tpope/vim-cucumber'
+
+" Adds end automatically in ruby
 Bundle 'tpope/vim-endwise'
+
+" Git things in the terminal
 Bundle 'tpope/vim-fugitive'
+
+" Tim Pope makes working with rails and vim so easy
 Bundle 'tpope/vim-rails'
+
+" Visual feedback that highlights opens and closes
 Bundle 'tsaleh/vim-matchit'
+
+" Handy for bouncing around method definitions
 Bundle 'vim-scripts/ctags.vim'
+
+" Quick Comments!
 Bundle 'vim-scripts/tComment'
+
+" add and change things that wrap other things
 Bundle 'tpope/vim-surround'
 
 " Powerline
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'stephenmckinney/vim-solarized-powerline'
 
-" Colorscheme
+" Colorschemes
 Bundle 'jpo/vim-railscasts-theme'
 Bundle 'akmassey/vim-codeschool'
 Bundle 'nanotech/jellybeans.vim'

@@ -1,0 +1,6 @@
+" Numbers
+set number
+set numberwidth=5
+
+" turn on relative number
+set relativenumber

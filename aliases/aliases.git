@@ -1,2 +1,4 @@
 # git
-alias gci="git pull --rebase && rake && git push"
+alias g="git"
+alias gs="git status"
+alias gl="git l"

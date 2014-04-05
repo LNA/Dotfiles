@@ -1,2 +1,2 @@
 " source control
-noremap <Leader>dif :w !diff %<CR>
+noremap <Leader>dif :w !diff % -<CR>

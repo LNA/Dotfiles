@@ -21,7 +21,7 @@ nmap <buffer> <Leader>ef :Eval<CR>
 exe 'nmap <buffer> <Leader>el <Plug>FireplaceEditab' . &cedit . 'i<CR>'
 " run test
 nmap <buffer> <Leader>t :Eval (clojure.test/run-tests)<CR>
-nmap <buffer> <Leader>s :AV<CR>
+nmap <buffer> <Leader>gs :AV<CR>
 
 nmap <buffer> <Leader>gd <C-W><C-D>
 

@@ -15,5 +15,8 @@ nnoremap <Leader><Leader>c :JavaCorrect<CR>
 nnoremap <Leader>C :JavaConstructor<CR>
 
 " add coment line
-nnoremap <C-l><C-m> :TComment<cr>ea 
-inoremap <C-l><C-m> <esc>:TComment<cr>ea 
+nnoremap <Leader><C-l><C-m> :TComment<cr>ea 
+inoremap <C-,>lm <esc>:TComment<cr>ea 
+
+" replace
+nnoremap <Leader>R !replace 

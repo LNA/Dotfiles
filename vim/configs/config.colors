@@ -6,5 +6,5 @@ colorscheme solarized
 set t_Co=256
 highlight Normal ctermbg=NONE
 highlight nonText ctermbg=NONE
-highlight LineNr ctermbg=NONE
 highlight SignColumn ctermbg=NONE
+highlight LineNr ctermbg=NONE
