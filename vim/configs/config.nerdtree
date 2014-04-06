@@ -1,2 +1,3 @@
 " NERDTree settings
-let NERDTreeShowHidden = 1 " nerdtree shows hidden files
+let NERDTreeShowHidden = 1
+let NERDTreeMinimalUI = 1

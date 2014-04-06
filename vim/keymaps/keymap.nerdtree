@@ -1,0 +1,1 @@
+nnoremap <C-d> :NERDTreeToggle<CR> " Think Directory

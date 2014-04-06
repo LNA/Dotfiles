@@ -3,6 +3,7 @@ source ~/.vim/keymaps/keymap.dotfiles
 source ~/.vim/keymaps/keymap.cutcopypaste
 source ~/.vim/keymaps/keymap.sourcecontrol
 source ~/.vim/keymaps/keymap.search
+source ~/.vim/keymaps/keymap.nerdtree
 
 " FileType Specific Keymaps: Clojure
 au BufRead,BufNewFile *.clj source ~/.vim/keymaps/keymap.clj.vim
