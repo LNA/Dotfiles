@@ -1,7 +1,3 @@
-" Add raindow parenthesis
-RainbowParenthesesActivate
-RainbowParenthesesLoadRound
-
 " Key Mapping for vim-fireplace
 " ================================
 " Documentation Settings

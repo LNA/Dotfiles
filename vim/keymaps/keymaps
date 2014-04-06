@@ -5,13 +5,13 @@ source ~/.vim/keymaps/keymap.sourcecontrol
 source ~/.vim/keymaps/keymap.search
 
 " FileType Specific Keymaps: Clojure
-au BufEnter *.clj source ~/.vim/keymaps/keymap.clj.vim
+au BufRead,BufNewFile *.clj source ~/.vim/keymaps/keymap.clj.vim
 
 " FileType Specific Keymaps: Java
-au BufEnter *.java source ~/.vim/keymaps/keymap.java.vim
+au BufRead,BufNewFile *.java source ~/.vim/keymaps/keymap.java.vim
 
 " FileType Specific Keymaps: Ruby
-au BufEnter *.rb source ~/.vim/keymaps/keymap.rb.vim
+au BufRead,BufNewFile *.rb source ~/.vim/keymaps/keymap.rb.vim
 
 " FileType Specific Keymaps: .classpath
-au BufEnter .classpath source ~/.vim/keymaps/keymap.classpath.vim
+au BufRead,BufNewFile .classpath source ~/.vim/keymaps/keymap.classpath.vim
