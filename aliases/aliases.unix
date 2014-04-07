@@ -1,2 +1,3 @@
 # Unix
 alias mkdir='mkdir -p'
+alias back='cd -'

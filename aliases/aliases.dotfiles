@@ -1,2 +1,2 @@
 alias d="cd ~/dotfiles"
-alias D="vi ~/dotfiles"
+alias D="cd ~/dotfiles && v"
