@@ -2,7 +2,6 @@
 source ~/.aliases/aliases.unix
 source ~/.aliases/aliases.git
 source ~/.aliases/aliases.rails
-source ~/.aliases/aliases.vim
 source ~/.aliases/aliases.eclim
 source ~/.aliases/aliases.rcm
 source ~/.aliases/aliases.java
