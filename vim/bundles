@@ -13,8 +13,9 @@ Bundle 'danro/rename.vim'
 " Coffeescript Compatability
 Bundle 'kchmck/vim-coffee-script'
 
-" Faster Searches
+" Searches
 Bundle 'kien/ctrlp.vim'
+Bundle 'Lokaltog/vim-easymotion'
 
 " Syntax highlighting in open buffers
 Bundle 'scrooloose/syntastic'
