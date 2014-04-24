@@ -1,10 +1,10 @@
-" colorscheme
-set background=light
+" Color Scheme
+let g:solarized_termtrans = 1
+set background=dark
 colorscheme solarized
 
-" use terminal background color
 set t_Co=256
 highlight Normal ctermbg=NONE
 highlight nonText ctermbg=NONE
-highlight SignColumn ctermbg=NONE
 highlight LineNr ctermbg=NONE
+highlight SignColumn ctermbg=NONE

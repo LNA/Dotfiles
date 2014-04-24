@@ -1,0 +1,20 @@
+#!/bin/bash
+
+rubynew () {
+mkdir lib
+mkdir spec
+ 
+cat >spec/spec_helper.rb <<EOF
+require 'rspec'
+ 
+Dir["./lib/*.rb"].each { |file| require file }
+EOF
+ 
+cat >spec/_spec.rb <<EOF
+require 'spec_helper'
+ 
+describe Something do
+  it "does something"
+end
+EOF
+}
