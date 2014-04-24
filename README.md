@@ -1,4 +1,4 @@
-I originally got these from Zach Davy[https://github.com/zachmokahn]. 
+I originally got these from Zach Davy[https://github.com/zachmokahn]; currently adding in my own configurations.
 
 To Install
 ------------------
