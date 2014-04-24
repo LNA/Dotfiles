@@ -1,6 +1,4 @@
-##Zachmokahn Dotfiles
-
-This is my current attempt and a clean and organized set of dotfiles.
+I originally got these from Zach Davy[https://github.com/zachmokahn]. 
 
 To Install
 ------------------
