@@ -23,3 +23,7 @@ set splitright
 set scrolloff=8
 set sidescrolloff=15
 set sidescroll=1
+
+" remove trailing whitespace on a save
+autocmd BufWritePre *.* :%s/\s\+$//e
+
