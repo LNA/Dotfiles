@@ -48,13 +48,11 @@ Bundle 'tpope/vim-surround'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'stephenmckinney/vim-solarized-powerline'
 
-" Colorschemes
-Bundle 'jpo/vim-railscasts-theme'
+" Color Scheme
 Bundle 'akmassey/vim-codeschool'
-Bundle 'nanotech/jellybeans.vim'
-Bundle 'vim-scripts/twilight'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'croaky/vim-colors-github'
+Bundle 'rking/vim-detailed'
 
 " NERDTree
 Bundle 'scrooloose/nerdtree'
