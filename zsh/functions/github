@@ -1,8 +1,8 @@
 #!/bin/bash
 
-github()
+gh()
 {
-  local location=$(grep -o -m 1 'http.*' .git/config)
-  open $location
+  local giturl=$(grep -o -m 1 'git@.*' .git/config)
+  giturl=${giturl/git\@github\.com\:/https://github.com/}
+  open $giturl
 }
-
