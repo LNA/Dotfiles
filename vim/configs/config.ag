@@ -1,7 +1,7 @@
 " Use ag whenever grep is called, because its so fast
-set grepprg=ag\ --nogroup\ --nocolor
-let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
-let g:ctrlp_use_caching = 0
+"set grepprg=ag\ --nogroup\ --nocolor
+"let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+"let g:ctrlp_use_caching = 0
 
 " Super Awesome Search!
-command -nargs=+ -complete=file -bar Get silent! grep! -w <args>|cwindow|redraw!
+"command -nargs=+ -complete=file -bar Get silent! grep! -w <args>|cwindow|redraw!

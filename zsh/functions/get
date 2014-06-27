@@ -1,4 +1,4 @@
-#!/bin/bash
+!/bin/bash
 
 get() {
   local find_this=$1
