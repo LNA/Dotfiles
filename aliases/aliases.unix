@@ -1,3 +1,4 @@
 # Unix
 alias mkdir='mkdir -p'
 alias back='cd -'
+alias be='bundle exec'
