@@ -2,3 +2,4 @@
 alias mkdir='mkdir -p'
 alias back='cd -'
 alias be='bundle exec'
+alias kata='cd ~/projects/katas/clojure-katas/roman-numerals'
