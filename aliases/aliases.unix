@@ -3,4 +3,5 @@ alias mkdir='mkdir -p'
 alias back='cd -'
 alias be='bundle exec'
 alias kata='cd ~/projects/katas/clojure-katas/roman-numerals'
-alias hairflip='cd ~/projects/clojure_puzzle_node/micro-blog'
+alias hairflip='cd ~/projects/clojure_ttt'
+
