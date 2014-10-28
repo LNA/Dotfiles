@@ -2,6 +2,10 @@
 alias mkdir='mkdir -p'
 alias back='cd -'
 alias be='bundle exec'
-alias kata='cd ~/projects/katas/clojure-katas/roman-numerals'
-alias hairflip='cd ~/projects/clojure_ttt'
-
+alias p='cd ~/projects/explore/poodr'
+alias P='cd ~/projects/explore/poodr && v'
+alias js='cd ~/projects/httpServer'
+alias h='cd ~/projects/hack'
+alias H='cd ~/projects/hack && v'
+alias c='cd ~/projects/cob_spec'
+alias C='cd ~/projects/cob_spec && java -jar fitnesse.jar -p 9090'

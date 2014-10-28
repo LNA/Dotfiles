@@ -11,3 +11,5 @@ alias glp="git log --pretty=oneline"
 alias gb="git branch"
 alias gp="git push"
 alias gds="git diff --staged"
+alias amend="git commit --amend"
+
