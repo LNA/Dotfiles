@@ -5,3 +5,6 @@
 
 " Super Awesome Search!
 "command -nargs=+ -complete=file -bar Get silent! grep! -w <args>|cwindow|redraw!
+
+" The Silver Searcher"
+let g:ackprg = 'ag --nogroup --nocolor --column'
