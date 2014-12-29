@@ -24,3 +24,6 @@ export PATH="$HOME/.bin:$PATH"
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+### Puts usr/local/bin earlier in path so that I can use homebrew versions of things that mac provides by default
+export PATH=/usr/local/bin:$PATH
