@@ -27,3 +27,5 @@ export PATH="/usr/local/heroku/bin:$PATH"
 
 ### Puts usr/local/bin earlier in path so that I can use homebrew versions of things that mac provides by default
 export PATH=/usr/local/bin:$PATH
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*

@@ -12,5 +12,17 @@ alias c='cd ~/projects/cob_spec'
 alias C='cd ~/projects/cob_spec && java -jar fitnesse.jar -p 9090'
 alias PN='cd ~/projects/clojure_puzzle_node/scrabble && v'
 alias pn='cd ~/projects/clojure_puzzle_node/scrabble'
-alias eio='cd ~/projects/exercism.io'
-alias EIO='cd ~/projects/exercism.io && v'
+alias eio='cd ~/projects/exercism.io && rvm use 2.1.5'
+alias EIO='cd ~/projects/exercism.io && v && rvm use 2.1.5'
+
+#latest JDK 7 by Oracle
+export JAVA_7_HOME=$(/usr/libexec/java_home -v 1.7)
+#latest preview JDK 8 by Oracle
+export JAVA_8_HOME=$(/usr/libexec/java_home -v 1.8)
+
+#default JDK is  7
+export JAVA_HOME=$JAVA_7_HOME
+
+#Make aliases to switch from one to another
+alias java7='export JAVA_HOME=$JAVA_7_HOME'
+alias java8='export JAVA_HOME=$JAVA_8_HOME'
