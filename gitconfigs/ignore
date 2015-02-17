@@ -9,3 +9,7 @@ tags
 tmp/**/*
 !tmp/cache/.keep
 zeus.json
+
+#Intellij
+out/
+*.idea

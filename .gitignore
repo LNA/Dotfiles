@@ -5,3 +5,5 @@ secret*
 private*
 *.private
 *.secret
+out/
+.idea/workspace.xml
