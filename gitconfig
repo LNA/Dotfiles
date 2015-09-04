@@ -8,3 +8,5 @@
   path = .gitconfigs/pretty
   path = .gitconfigs/push
   path = .gitconfigs/user
+[user]
+	email = LaToyaNAllen@gmail.com
