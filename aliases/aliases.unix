@@ -13,7 +13,8 @@ alias C='cd ~/projects/cob_spec && java -jar fitnesse.jar -p 9090'
 alias eio='cd ~/projects/exercism.io && rvm use 2.1.5'
 alias EIO='cd ~/projects/exercism.io && v && rvm use 2.1.5'
 alias i='cd ~/projects/interviews/clojure'
-alias moon='cd ~/projects/moon/moon'
+alias luna='cd ~/projects/luna'
+alias katas='cd ~/projects/katas/rust_katas'
 
 #latest JDK 7 by Oracle
 export JAVA_7_HOME=$(/usr/libexec/java_home -v 1.7)
