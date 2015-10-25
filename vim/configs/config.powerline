@@ -1,5 +1,4 @@
 " powerline settings
 set encoding=utf-8
 let g:Powerline_theme='short'
-let g:Powerline_colorscheme='skwp'
 let g:Powerline_symbols = 'fancy'
