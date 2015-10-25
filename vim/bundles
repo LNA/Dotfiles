@@ -5,6 +5,9 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
+" Adds Rust configs
+Plugin 'rust-lang/rust.vim'
+
 " Let Vundle manage Vundle
 Bundle 'gmarik/vundle'
 
@@ -26,6 +29,9 @@ Bundle 'thoughtbot/vim-rspec'
 
 " Adds end automatically in ruby
 Bundle 'tpope/vim-endwise'
+
+" Adds haml functionality 
+Bundle 'tpope/vim-haml'
 
 " Git things in the terminal
 Bundle 'tpope/vim-fugitive'
