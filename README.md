@@ -10,7 +10,7 @@ $ chsh -s /bin/zsh
 
 2. clone the dotfiles into your home directory
 ```
-$ git clone https://github.com/zachmokahn/dotfiles ~/dotfiles
+$ git clone https://github.com/LNA/Dotfiles.git ~/dotfiles
 ```
 
 3. install [rcm](https://github.com/thoughtbot/rcm):
