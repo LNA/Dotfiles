@@ -5,6 +5,53 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
+" Adds missing packages for Big Cartel Compatibility
+Bundle 'vim-hashrocket'
+Bundle 'splitjoin.vim'
+Bundle 'vim-slurper'
+Bundle 'vim-bufonly'
+Bundle 'supertab'
+Bundle 'tabular'
+Bundle 'gitv'
+Bundle 'vim-emblem'
+Bundle 'tslime.vim'
+Bundle 'vim-blockle'
+Bundle 'vim-railscasts'
+Bundle 'vim-turbux'
+Bundle 'vim-weefactor'
+Bundle 'vim-json'
+Bundle 'ack.vim'
+Bundle 'vim-javascript'
+Bundle 'vim-spacejam'
+Bundle 'vim-slim'
+Bundle 'vim-pyte'
+Bundle 'vim-abolish'
+Bundle 'vim-bundler'
+Bundle 'vim-commentary'
+Bundle 'vim-cucumber'
+Bundler 'vim-endwise'
+Bundler 'vim-eunuch'
+Bundler 'vim-fugitive'
+Bundler 'vim-git'
+Bundler 'vim-markdown'
+Bundler 'vim-pathogen'
+Bundler 'vim-projectionist'
+Bundler 'vim-ragtag'
+Bundler 'vim-rake'
+Bundler 'vim-repeat'
+Bundler 'vim-rsi'
+Bundler 'vim-sensible'
+Bundler 'vim-sleuth'
+Bundler 'vim-speeddating'
+Bundler 'vim-unimpaired'
+Bundler 'vim-vividchalk'
+Bundler 'vim-ruby'
+Bundler 'bufexplorer.zip'
+Bundler 'bufkill.vim'
+Bundler 'vim-irblack'
+
+
+
 " Adds Rust configs
 Plugin 'rust-lang/rust.vim'
 
