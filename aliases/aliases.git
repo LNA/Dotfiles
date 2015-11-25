@@ -13,4 +13,6 @@ alias gb="git branch"
 alias gp="git push"
 alias gds="git diff --staged"
 alias amend="git commit --amend"
+alias gap="git add --patch"
+alias gc="git commit"
 
