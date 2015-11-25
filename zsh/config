@@ -23,7 +23,7 @@ setopt histignoredups
 export HISTSIZE=4096
 
 # Try to correct command line spelling
-setopt CORRECT CORRECT_ALL
+#setopt CORRECT CORRECT_ALL
 
 # Set up rbenv 
 export RBENV_ROOT=/usr/local/var/rbenv
