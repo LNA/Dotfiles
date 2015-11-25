@@ -6,9 +6,9 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 " Adds missing packages for Big Cartel Compatibility
-Bundle 'vim-hashrocket'
-Bundle 'splitjoin.vim'
-Bundle 'vim-slurper'
+Bundle 'hashrocket/vim-hashrocket'
+Bundle 'AndrewRadev/splitjoin.vim'
+Bundle 'adamlowe/vim-slurper'
 Bundle 'vim-bufonly'
 Bundle 'supertab'
 Bundle 'tabular'
@@ -25,38 +25,37 @@ Bundle 'vim-javascript'
 Bundle 'vim-spacejam'
 Bundle 'vim-slim'
 Bundle 'vim-pyte'
-Bundle 'vim-abolish'
-Bundle 'vim-bundler'
-Bundle 'vim-commentary'
-Bundle 'vim-cucumber'
-Bundler 'vim-endwise'
-Bundler 'vim-eunuch'
-Bundler 'vim-fugitive'
-Bundler 'vim-git'
-Bundler 'vim-markdown'
-Bundler 'vim-pathogen'
-Bundler 'vim-projectionist'
-Bundler 'vim-ragtag'
-Bundler 'vim-rake'
-Bundler 'vim-repeat'
-Bundler 'vim-rsi'
-Bundler 'vim-sensible'
-Bundler 'vim-sleuth'
-Bundler 'vim-speeddating'
-Bundler 'vim-unimpaired'
-Bundler 'vim-vividchalk'
-Bundler 'vim-ruby'
-Bundler 'bufexplorer.zip'
-Bundler 'bufkill.vim'
-Bundler 'vim-irblack'
+Bundle 'tpope/vim-abolish'
+Bundle 'tpope/vim-bundler'
+Bundle 'tpope/vim-commentary'
+Bundle 'tpope/vim-cucumber'
+Bundle 'tpope/vim-eunuch'
+Bundle 'tpope/vim-git'
+Bundle 'tpope/vim-markdown'
+Bundle 'tpope/vim-pathogen'
+Bundle 'tpope/vim-projectionist'
+Bundle 'tpope/vim-ragtag'
+Bundle 'tpope/vim-rake'
+Bundle 'tpope/vim-repeat'
+Bundle 'tpope/vim-rsi'
+Bundle 'tpope/vim-sensible'
+Bundle 'tpope/vim-sleuth'
+Bundle 'tpopevim-speeddating'
+Bundle 'tpope/vim-unimpaired'
+Bundle 'tpope/vim-vividchalk'
+Bundle 'vim-ruby/vim-ruby'
+Bundle 'bufexplorer.zip'
+Bundle 'bufkill.vim'
+Bundle 'vim-irblack'
 
-
+" Adds gist vim
+Bundle 'mattn/gist-vim'
 
 " Adds Rust configs
 Plugin 'rust-lang/rust.vim'
 
 " Let Vundle manage Vundle
-Bundle 'gmarik/vundle'
+Bundle 'gmarik/Vundle.vim'
 
 " Rename Files In Buffer
 Bundle 'danro/rename.vim'
@@ -88,6 +87,7 @@ Bundle 'tpope/vim-rails'
 
 " Visual feedback that highlights opens and closes
 Bundle 'tsaleh/vim-matchit'
+
 
 " Handy for bouncing around method definitions
 Bundle 'vim-scripts/ctags.vim'

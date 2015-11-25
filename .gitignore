@@ -7,3 +7,4 @@ private*
 *.secret
 out/
 .idea/workspace.xml
+~shenomads/config/database.yml
