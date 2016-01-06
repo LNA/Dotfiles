@@ -3,3 +3,6 @@ let mapleader = ","
 source ~/.vim/bundles
 source ~/.vim/configs/configs
 source ~/.vim/keymaps/keymaps
+
+" Stop CtrlP from looking in useless directories"
+set wildignore+=*/.git/*,*/vendor,*/node_modules,*/bower_components,*/tmp

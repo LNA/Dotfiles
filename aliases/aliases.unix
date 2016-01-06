@@ -16,8 +16,10 @@ alias katas='cd ~/projects/katas/rust_katas'
 alias book='cd ~/projects/rust_lang_book'
 alias big='cd ~/bigcartel/bigcartel'
 alias admin='cd ~/bigcartel/admin'
+alias adminf='cd ~/bigcartel/admin-frontend'
 alias remigrate='rake db:drop && rake db:create && rake db:migrate && rake db:schema:dump && rake db:test:prepare'
 alias she='cd ~/shenomads/shenomads'
+alias qunit='open '\''http://localhost:7357'\'
 
 #latest JDK 7 by Oracle
 export JAVA_7_HOME=$(/usr/libexec/java_home -v 1.7)

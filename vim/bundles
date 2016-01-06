@@ -5,6 +5,9 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
+" Adds handlebars
+Bundle 'mustache/vim-mustache-handlebars'
+
 " Adds missing packages for Big Cartel Compatibility
 Bundle 'hashrocket/vim-hashrocket'
 Bundle 'AndrewRadev/splitjoin.vim'
