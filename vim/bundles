@@ -115,10 +115,10 @@ Bundle 'rking/vim-detailed'
 Bundle 'scrooloose/nerdtree'
 
 " Auto Paring
-Bundle 'jiangmiao/auto-pairs'
+" Bundle 'jiangmiao/auto-pairs'
 
 " Relative Number Toggle
-Bundle 'jeffkreeftmeijer/vim-numbertoggle'
+" Bundle 'jeffkreeftmeijer/vim-numbertoggle'
 
 " Useful Clojure Plugins
 Bundle 'tpope/vim-fireplace'

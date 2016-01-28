@@ -27,3 +27,5 @@ set sidescroll=1
 " remove trailing whitespace on a save
 autocmd BufWritePre *.* :%s/\s\+$//e
 
+" set undo files
+set undodir=$HOME/.vim/undo

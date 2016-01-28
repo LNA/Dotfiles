@@ -8,3 +8,4 @@ private*
 out/
 .idea/workspace.xml
 ~shenomads/config/database.yml
+*~
