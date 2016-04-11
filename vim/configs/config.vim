@@ -9,6 +9,7 @@ set showcmd
 set incsearch
 set laststatus=2
 set autowrite
+set noundofile
 syntax on
 filetype plugin indent on
 
@@ -29,3 +30,14 @@ autocmd BufWritePre *.* :%s/\s\+$//e
 
 " set undo files
 set undodir=$HOME/.vim/undo
+
+" set for phantomjs
+set ff=unix
+set fileformat=unix
+
+
+" kills swp files
+set noswapfile
+
+" kilss tmp files
+set nobackup
