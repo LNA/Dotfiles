@@ -36,8 +36,7 @@ set ff=unix
 set fileformat=unix
 
 
-" kills swp files
+" kills backup, swp files,
+set nowritebackup
 set noswapfile
-
-" kilss tmp files
 set nobackup
