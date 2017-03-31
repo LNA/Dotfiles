@@ -13,6 +13,9 @@ set noundofile
 syntax on
 filetype plugin indent on
 
+"  jsx
+let g:jsx_ext_required = 1
+
 " Check Syntax of Open Files
 let g:syntastic_check_on_open=1
 
@@ -40,3 +43,9 @@ set fileformat=unix
 set nowritebackup
 set noswapfile
 set nobackup
+
+" Adds tab shortcuts
+map tn :tabnew <cr>
+map th :tabprev <cr>
+map tl :tabnext <cr>
+

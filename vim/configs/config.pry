@@ -1,0 +1,2 @@
+iabbr rpry require 'pry-remote'; binding.remote_pry;
+iabbr require 'pry'; binding.pry; require 'pry'; binding.pry;
